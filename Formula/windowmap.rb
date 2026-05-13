@@ -3,9 +3,9 @@
 class Windowmap < Formula
   desc "Global hotkey window picker for macOS"
   homepage "https://github.com/WindowMap/WindowMap"
-  version "0.1.0"
+  version "0.2.0"
   url "https://github.com/WindowMap/WindowMap/releases/download/v#{version}/windowmap.tar.gz"
-  sha256 "2897e3e9d98b844186f4a3cc1346189e511834c471a5b620080d4941549717e4"
+  sha256 "b369f0bc54ce7393bd39f91f7680f924136e162e95afc268c817d888398bd604"
 
   depends_on macos: :sonoma
 
