@@ -32,6 +32,7 @@ class Windowmap < Formula
   service do
     run [opt_bin/"windowmap"]
     keep_alive crashed: true
+    process_type :interactive
     log_path var/"log/windowmap.log"
     error_log_path var/"log/windowmap.log"
   end
