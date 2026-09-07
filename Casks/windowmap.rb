@@ -1,6 +1,6 @@
 cask "windowmap" do
   version "1.0.0"
-  sha256 "51fcb905eb6afdec93e79deec40939b3fc40e6c5160d2e1be0593c7231c1cb2f"
+  sha256 "5cbc200881cc08bf92d39bccd647ea93e43c12caca1d7c6c09c0bc1dfd3c5f1d"
 
   url "https://github.com/WindowMap/WindowMap/releases/download/v#{version}/WindowMap.tar.gz"
   name "WindowMap"
@@ -40,10 +40,7 @@ cask "windowmap" do
           <key>RunAtLoad</key>
           <true/>
           <key>KeepAlive</key>
-          <dict>
-            <key>SuccessfulExit</key>
-            <false/>
-          </dict>
+          <true/>
           <key>ProcessType</key>
           <string>Interactive</string>
           <key>StandardOutPath</key>
