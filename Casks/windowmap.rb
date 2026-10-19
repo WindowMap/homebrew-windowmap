@@ -1,6 +1,6 @@
 cask "windowmap" do
-  version "1.0.0"
-  sha256 "5cbc200881cc08bf92d39bccd647ea93e43c12caca1d7c6c09c0bc1dfd3c5f1d"
+  version "1.1.0"
+  sha256 "4837e491f2f741d15642a34fe4a169f2f90ababaf43d1515b6befcc596370cca"
 
   url "https://github.com/WindowMap/WindowMap/releases/download/v#{version}/WindowMap.tar.gz"
   name "WindowMap"
